@@ -1,5 +1,8 @@
 package com.spring.spring_rest.exception;
 
+/**
+ * StudentNotFoundException.
+ */
 public class StudentNotFoundException extends RuntimeException{
 
     private static final long serialVersionUID = -290100046087976236L;

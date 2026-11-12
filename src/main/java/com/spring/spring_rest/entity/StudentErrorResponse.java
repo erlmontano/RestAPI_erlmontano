@@ -1,5 +1,8 @@
 package com.spring.spring_rest.entity;
 
+/**
+ * StudentErrorResponse.
+ */
 public class StudentErrorResponse {
 
     private int status;
@@ -44,7 +47,9 @@ public class StudentErrorResponse {
         this.timeStamp = timeStamp;
     }
 
-
+    /**
+     * set variables.
+     */
 
     public StudentErrorResponse(int status, String message, long timeStamp){
         this.status = status;
